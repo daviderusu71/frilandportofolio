@@ -1,0 +1,151 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  html{
+    height: 100%;
+  }
+}
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+img {
+  display: block;
+}
+.main-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* Header */
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 73px;
+  border-bottom: 1px solid #e5e9f2;
+}
+.header-container {
+  width: 1110px;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+}
+.logo {
+  margin-right: 60px;
+}
+.nav {
+  margin-top: -4px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #18191f;
+}
+.nav-link {
+  margin-right: 32px;
+  color: #18191f;
+  text-decoration: none;
+}
+.nav-link:hover {
+  color: #8c30f5;
+}
+
+.nav-link:last-child {
+  margin-right: 0;
+}
+
+.appstore {
+  margin-left: auto;
+  display: flex;
+}
+.appstore-item {
+  margin-left: 12px;
+}
+.appstore-item:first-child {
+  margin-left: 0;
+}
+
+/* Main */
+
+.main {
+}
+.main-container {
+  width: 1110px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-top: 197px;
+  padding-bottom: 197px;
+}
+.main-confent {
+  width: 540px;
+  font-size: 18px;
+  color: #18191f;
+}
+.main-img {
+}
+.main-header {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 1.36;
+  color: #18191f;
+  font-feature-settings: "liga" 0;
+}
+.main-text {
+  margin-bottom: 32px;
+}
+.main-confent p {
+  margin-bottom: 15px;
+  font-size: 18px;
+  line-height: 1.78;
+}
+.button {
+  display: inline-block;
+  padding-left: 35px;
+  padding-right: 35px;
+  height: 62px;
+  background-color: #8c30f5;
+  border-radius: 8px;
+
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 62px;
+  color: #fff;
+  text-decoration: none;
+}
+.button:hover {
+  opacity: 0.8;
+}
+/* Footer */
+.footer {
+  display: flex;
+  height: 72px;
+  background-color: #0b0d17;
+  color: #d9dbe1;
+}
+.footer-container {
+  width: 1110px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-items: center;
+}
+.footer-copyright {
+  font-size: 14px;
+}
+
+.footer-socials {
+ display: flex;
+}
+.footer-socials-item {
+  margin-left: 20px;
+}
